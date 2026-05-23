@@ -90,7 +90,7 @@ Synthux instruments are genuinely fun to hack on. Simple Touch and Audrey II hav
 ### General — applicable to all Simple / Daisy
 
 #### troubleshooting 
-- #todo
+- A lot of help is being shared on the Discord channel; a goofd place to start: 
 
 [Expanded pins list / spreadsheet with Synthux numbering](https://docs.google.com/spreadsheets/d/1xtg_s1tk8tm-6qNkBLFc6V1L_Mpmu-PCOvv7qEyr9mU/edit?usp=drivesdk) - made by jonwtr, living document, different tabs, handy to pinpoint pins of Daisy and their corresponding numbers and functions in Synthux hardware and code.
 
@@ -106,7 +106,45 @@ Synthux instruments are genuinely fun to hack on. Simple Touch and Audrey II hav
 
 ### Simple Touch 2
 
-#### Code / instruments
+#### Official firmware / instruments
+
+[Official Simple Touch firmwares](https://github.com/Synthux-Academy/simple-touch-instruments): - by Synthux Academy (Vlad / Vladislav Litvinenko / aka Bleeptools)
+
+Note that this original folder has most instruments in the DaisyDuino (Arduino) subfolder.
+The main instruments (TouchBass, TouchFX, TouchString, TouchDrone, TouchDrumMachine, TouchLooper, TouchSlicer) are being ported to C++ and are being moved to their own dedicated repositories.
+
+- TouchBass
+- TouchFX
+- TouchString
+- TouchDrone
+- TouchDrumMachine
+- TouchLooper
+- TouchSlicer
+
+TouchBass, TouchFX, TouchString (and Audrey Touch) are the ones that have a dedicated faceplate in the kit.
+
+[TouchMIDI](https://github.com/Synthux-Academy/TouchMIDI) - MIDI controller for Simple Touch - by Synthux Academy (Vladislav Litvinenko)
+
+**New / dedicated repositories for the official firmwares**
+
+[TouchBass](https://github.com/Synthux-Academy/TouchBass) - by Synthux Academy (Vladislav Litvinenko)
+
+[Audrey Touch](https://github.com/Synthux-Academy/Audrey) - drone instrument ported from Synthux's Audrey II to the Simple Touch 2 interface - by Synthux Academy (Vladislav Litvinenko)
+
+
+#### Community instruments:
+
+[Synthmas 2023 Instruments](https://github.com/Synthux-Academy/synthmas-2023)
+
+- A selection of small instruments made by the community:
+  - **Soundscpr** by Jon Waterschoot
+  - **Modular Touch Synth** by Sam Knight
+  - **Chord Buffer** by Filip Forsström
+  - **Dattopan** by Alexander Chalikiopoulos
+  - **Bow Box** by Holland Sersen
+  - **txtul8er** by Erik Baxstrom
+  - **Touch Function Generator** by Erez Levanon
+  - **Daisy OmniChord** by Daniel Lawler
 
 [SimplePlaits](https://github.com/JorgeVelez/TallerSimple/tree/main/SimplePlaits) - Mutable instruments Plaits by Jorge Velez
 
@@ -114,11 +152,28 @@ Synthux instruments are genuinely fun to hack on. Simple Touch and Audrey II hav
 
 [Selfdistort Touch](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX/selfdistort_touch) - Selftriggering distortion FX - by jonwtr - inspired by Audrey, can function as a regular distortion or as a droning fx. Made with plugdata - patch and instructions available.
 
-- [`.bin` shared; code / pd patch on Github](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX/selfdistort_touch); [demo](https://www.youtube.com/watch?v=csmBTfaORss) video YouTube; [discord thread](https://discord.com/channels/802197755442626590/1359248570913394829)
+- [`.bin` shared; code / pd patch on Github](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX/selfdistort_touch); [demo](https://www.youtube.com/watch?v=csmBTfaORss) video YouTube;
+- [discord thread](https://discord.com/channels/802197755442626590/1359248570913394829)
 
 [FM BleepBloop](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX-Instruments/FM_bleepbloop_touch) - randomized sequencer for a complex FM oscillator Made with plugdata - patch and instructions available. - by jonwtr
 
-- [`.bin` shared; code / pd patch on Github](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX-Instruments/FM_bleepbloop_touch); [discord thread](https://discord.com/channels/802197755442626590/1393384183602086020)
+- [`.bin` shared; code / pd patch on Github](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX-Instruments/FM_bleepbloop_touch);
+- [discord thread](https://discord.com/channels/802197755442626590/1393384183602086020)
+
+[OceanTouch](https://github.com/ymillion/OceanTouch-Touch2-Firmware) - dual-delay and reverb workstation - by StubeMusic (ymillion on Github)
+
+ [oceantouch.vercel.app](https://oceantouch.vercel.app/) - complete and extended manual
+- [Discord thread](https://discord.com/channels/802197755442626590/1494042482571214959)
+
+[ZenTouch](https://github.com/ymillion/zentouch-Touch2-Firmware) - contemplative Karplus-Strong synthesizer alternative firmware for Simple Touch 2 - by StubeMusic (ymillion on Github)
+
+- [zentouch-touch2.vercel.app](https://zentouch-touch2.vercel.app/) - Interactive ZenTouch Web Manual
+- [Discord thread](https://discord.com/channels/802197755442626590/1504941553427415260)
+
+[TribalTouch](https://tribaltouch.vercel.app/) — Seven-Voice Generative Percussion - by StubeMusic (ymillion on Github)
+
+- code not available yet - see discord or the live manual link
+- [Discord thread](https://discord.com/channels/802197755442626590/1500542462329098394)
 
 #### Hardware
 
@@ -152,6 +207,8 @@ Audrey was first shared / made as a diy project on top of the Simple Designer PC
 
 The code of version one and two is the same, the main difference is that V2 has a dedicated enclosure and front plate option.
 
+[Official Synthux Audrey II Assembly Tutorial](https://tsemah.notion.site/Audrey-II-Assembly-Tutorial-1736331933b8809f8412f94f634622a5) - Notion guide by Synthux / Roey Tsemah
+
 #### Audrey hardware mods
 
 [Gate input, audio input and other Audrey modifications](https://discord.com/channels/802197755442626590/1366503223124561983/1366503223124561983) - Discord thread - by Bruce
@@ -169,6 +226,16 @@ The code of version one and two is the same, the main difference is that V2 has 
 [Audrey II 3D Printed Case](https://discord.com/channels/802197755442626590/1353943474998743140/1355504016129527878) - Discord thread - .stl shared - by kurt
 
 [Just in case … bamboo enclosure](https://discord.com/channels/802197755442626590/1350821391401877575) - Discord thread - by KHAGEmusik
+
+### Spotykach - the first complete non diy instrument by Synthux
+
+[Spotykach](https://github.com/Synthux-Academy/Spotykach) - by Synthux Academy (Vladislav Litvinenko)
+
+[Manual](https://synthux.academy/spotykach/manual)
+
+[WAV.builder - sample manager for Spotykach](https://jonwaterschoot.github.io/spotykach_WAV_builder/) - by jonwtr (github handle)
+
+- [WAV.builder Github repository](https://github.com/jonwaterschoot/spotykach_WAV_builder)
 
 ---
 
@@ -324,7 +391,11 @@ Soldering + electronics tools:
 - helping hands
     - [omnifixo](https://omnifixo.com/en-eu/products/omnifixo-m4-makers-third-hand) - third helping hand, has some nifty features like option to connect power through or isolate, uses clamps and magnets.
 
-### Components for Simple PCBs
+### Components for Simple PCBs - 
+
+> [!NOTE]
+> 
+> To-Do, help welcome!
 
 - list of components compatible with Synthux PCB's
 - sensors included in Daisy libraries
@@ -356,6 +427,10 @@ Soldering + electronics tools:
 [circuito](https://www.circuito.io/) - online app that generates instant and accurate schematics and code for your electronic circuit.
 
 ### PCB Design resources / lessons and best practices
+
+> [!NOTE]
+> 
+> To-Do, help welcome!
 
 - list
 
@@ -400,14 +475,30 @@ Soldering + electronics tools:
   - [Conatus Modulari on YouTube](https://www.youtube.com/@ConatusModulari) - jams and soundscapes
   - [Conatus Modulari on Instagram](https://www.instagram.com/conatusmodulari)
 
+- **jonwtr aka Jon Waterschoot** - visual artist that fell into the rabbit hole of synths
+  - community lead in the [Synthux Discord server](https://discord.gg/fmxJveg)
+  - likes to experiment with the Synthux gear in creative ways, exploring new materials and shapes rooted in his visual arts background
+  - Made the WAV.builder sample manager app for Spotykach
+  - [Jon Waterschoot on GitHub](https://github.com/jonwaterschoot)
+  - [jonwtr on YouTube](https://www.youtube.com/@jonwtr)
+  - [jonwtr on Instagram](https://www.instagram.com/jonwtr)
+  
+- **StubeMusic** - Synth enthusiast and musician who makes great patches for Synthux gear and is building Daisy Bloom, an app to build Simple Touch (and custom Daisy Seed) projects using a node editor
+  - maker of OceanTouch, ZenTouch, TribalTouch
+  - made a custom (offline)app to upload .bin files to Daisy
+  - [StubeMusic on YouTube](http://www.youtube.com/@StubeMusicMedia)
 
-Spotykach prerelease supporters 
-- 
-- 
+> To Do: insert links StubeMusic apps
+
 
 ## Sound and music - made with Synthux related gear:
 
-- list
-- list
+Youtube Playlists:
+
+[Synthux Audrey II and Audrey Touch](https://www.youtube.com/watch?v=7TgSYVZVNeI&list=PL5C3-eYoi3VaNFiLZdAEt40glv4YsTCFm&pp=0gcJCdAEOCosWNinsAgC) - playlist of Audrey II and Audrey Touch performance videos     
+
+[Spotykach-videos](https://www.youtube.com/watch?v=Hi0uthKSkIQ&list=PL5C3-eYoi3Vb1_j0t6kHQF1s98jKagaKP&pp=sAgC) - playlist of Spotykach performance videos
+
+---
 
 
