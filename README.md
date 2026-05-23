@@ -11,9 +11,9 @@
 
 **To share anything of interest related to Synthux and the mission of learning, building and programming synthesizers.**
 
-**_Awesome_** lists are a repository, a collection of usefull links about a certain topic. Search GitHub and you'll find pages ranging from [puredata](https://github.com/MikeMorenoDSP/awesome-puredata) to [pen ploters](https://github.com/beardicus/awesome-plotters).
+**_Awesome_** lists are a repository, a collection of useful links about a certain topic. Search GitHub and you'll find pages ranging from [puredata](https://github.com/MikeMorenoDSP/awesome-puredata) to [pen plotters](https://github.com/beardicus/awesome-plotters).
 
-### Synthux by the community for the community - this list is unoffical
+### Synthux by the community for the community - this list is unofficial
 
 In the open‑source world, an awesome list is usually:
 - community‑curated
@@ -21,15 +21,15 @@ In the open‑source world, an awesome list is usually:
 - opinionated
 - not “official documentation”
 
-→ Hosting this inside the Synthux GitHub account might be counterintuitive, but the idea of keeping it here ensures it's easier to find and reach a the whole community without a direct risk of loosing access to the original.
+→ Hosting this inside the Synthux GitHub account might be counterintuitive, but the idea of keeping it here ensures it's easier to find and reach the whole community without a direct risk of losing access to the original.
 
 Community members can apply for maintenance roles, or you could simply add links or suggestions via a pull request or making an "issue". (#todo insert direct issue link)
 
-Synthux Academy is part of Stichting PTM Academy - a registered non-profit organization based in Rotterdam, Netherlands. It's founder Roey Tsemah has started the organization and community for anyone looking to learn and connect with fellow synth-nerds. The community ranges from music maker enthousiasts, DIY makers as well as professionals. The common goal is to share our love for music and technology.
+Synthux Academy is part of Stichting PTM Academy - a registered non-profit organization based in Rotterdam, Netherlands. Its founder Roey Tsemah has started the organization and community for anyone looking to learn and connect with fellow synth-nerds. The community ranges from music maker enthusiasts, DIY makers as well as professionals. The common goal is to share our love for music and technology.
 
 Synthux has a few of their own synths, most of which are made available as DIY kits and their source code is open source. There's a very open culture, building on the vast amount of available content in the space of music technology.
 
-While most Synthux kits come with the Electrosmith Daisy Seed microcontroller, the Simple PCB’s do fit other microcontrollers as well.
+While most Synthux kits come with the Electrosmith Daisy Seed microcontroller, the Simple PCBs do fit other microcontrollers as well.
 
 ### Synthux Community invite and code of conduct
 
@@ -90,7 +90,7 @@ Synthux instruments are genuinely fun to hack on. Simple Touch and Audrey II hav
 ### General — applicable to all Simple / Daisy
 
 #### troubleshooting 
-- A lot of help is being shared on the Discord channel; a goofd place to start: 
+- A lot of help is being shared on the Discord channel; a good place to start: 
 
 [Expanded pins list / spreadsheet with Synthux numbering](https://docs.google.com/spreadsheets/d/1xtg_s1tk8tm-6qNkBLFc6V1L_Mpmu-PCOvv7qEyr9mU/edit?usp=drivesdk) - made by jonwtr, living document, different tabs, handy to pinpoint pins of Daisy and their corresponding numbers and functions in Synthux hardware and code.
 
@@ -108,7 +108,7 @@ Synthux instruments are genuinely fun to hack on. Simple Touch and Audrey II hav
 
 #### Official firmware / instruments
 
-[Official Simple Touch firmwares](https://github.com/Synthux-Academy/simple-touch-instruments): - by Synthux Academy (Vlad / Vladislav Litvinenko / aka Bleeptools)
+[Official Simple Touch firmware](https://github.com/Synthux-Academy/simple-touch-instruments): - by Synthux Academy (Vlad / Vladislav Litvinenko / aka Bleeptools)
 
 Note that this original folder has most instruments in the DaisyDuino (Arduino) subfolder.
 The main instruments (TouchBass, TouchFX, TouchString, TouchDrone, TouchDrumMachine, TouchLooper, TouchSlicer) are being ported to C++ and are being moved to their own dedicated repositories.
@@ -125,7 +125,7 @@ TouchBass, TouchFX, TouchString (and Audrey Touch) are the ones that have a dedi
 
 [TouchMIDI](https://github.com/Synthux-Academy/TouchMIDI) - MIDI controller for Simple Touch - by Synthux Academy (Vladislav Litvinenko)
 
-**New / dedicated repositories for the official firmwares**
+**New / dedicated repositories for the official firmware**
 
 [TouchBass](https://github.com/Synthux-Academy/TouchBass) - by Synthux Academy (Vladislav Litvinenko)
 
@@ -150,7 +150,7 @@ TouchBass, TouchFX, TouchString (and Audrey Touch) are the ones that have a dedi
 
 - `.bin` shared; no code (yet); [discord thread](https://discord.com/channels/802197755442626590/1252740022755528775/135310798104218845)
 
-[Selfdistort Touch](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX/selfdistort_touch) - Selftriggering distortion FX - by jonwtr - inspired by Audrey, can function as a regular distortion or as a droning fx. Made with plugdata - patch and instructions available.
+[Selfdistort Touch](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX/selfdistort_touch) - Self-triggering distortion FX - by jonwtr - inspired by Audrey, can function as a regular distortion or as a droning fx. Made with plugdata - patch and instructions available.
 
 - [`.bin` shared; code / pd patch on Github](https://github.com/jonwaterschoot/Synthux-Simple-Touch-Plugdata/tree/main/FX/selfdistort_touch); [demo](https://www.youtube.com/watch?v=csmBTfaORss) video YouTube;
 - [discord thread](https://discord.com/channels/802197755442626590/1359248570913394829)
@@ -199,13 +199,13 @@ A few of the Synthux and community made instruments are made on top of the Desig
 
 [simple-front-face-midi](https://github.com/lucblender/simple-front-face-midi) - a PCB front panel for the simple kit with midi - by discord user helixbyte - [discord thread](https://discord.com/channels/802197755442626590/1039072802956918844/1051486326840623244)
 
-[Simple Canvas](https://github.com/Synthux-Academy/simple-designer-instruments/tree/main/official/canvas) - The Canvas is a cordless patchable West Cost Synthesizer. This synthesizer is born from a collaboration with the Synthux Academy. Its design is inspired by the famous Easel by Buchla. design in coöperation with community member Helixbyte
+[Simple Canvas](https://github.com/Synthux-Academy/simple-designer-instruments/tree/main/official/canvas) - The Canvas is a cordless patchable West Coast Synthesizer. This synthesizer is born from a collaboration with the Synthux Academy. Its design is inspired by the famous Easel by Buchla. design in cooperation with community member Helixbyte
 
 #### Audrey (II)
 
 Audrey was first shared / made as a diy project on top of the Simple Designer PCB board. Later Synthux started selling the updated kit and standalone unit.
 
-The code of version one and two is the same, the main difference is that V2 has a dedicated enclosure and front plate option.
+The code of version one and two is the same, the main difference is that V2 has a dedicated enclosure and front plate option. Therefore Audrey has its own section.
 
 [Official Synthux Audrey II Assembly Tutorial](https://tsemah.notion.site/Audrey-II-Assembly-Tutorial-1736331933b8809f8412f94f634622a5) - Notion guide by Synthux / Roey Tsemah
 
@@ -221,7 +221,7 @@ The code of version one and two is the same, the main difference is that V2 has 
 
 [Black walnut case for Audrey II](https://discord.com/channels/802197755442626590/1383964174429851688) - Discord thread - by faasdnb
 
-[Custom skin: Feedback Gardenscapr](https://github.com/jonwaterschoot/Feedback-Gardenscpr-for-Synthux-Audrey-II) - GitHub - Custom top plate, lasercut case and 3d printed knobs built on top of the Synthux Designer Simple kit - files shared - by jonwtr
+[Custom skin: Feedback Gardenscapr](https://github.com/jonwaterschoot/Feedback-Gardenscpr-for-Synthux-Audrey-II) - GitHub - Custom top plate, laser-cut case and 3d printed knobs built on top of the Synthux Designer Simple kit - files shared - by jonwtr
 
 [Audrey II 3D Printed Case](https://discord.com/channels/802197755442626590/1353943474998743140/1355504016129527878) - Discord thread - .stl shared - by kurt
 
@@ -243,7 +243,7 @@ The code of version one and two is the same, the main difference is that V2 has 
 
 Synthux instruments are mostly made with **Daisy**, though other boards can fit the Simple PCB's. Therefore some info or guides may be in full about Synthux, some partly.
 
-Note Synthux also has paid-for courses (and/or included with bying kits). Do check out the official website for more info. Here we're trying to link to freely available info.
+Note Synthux also has paid-for courses (and/or included with buying kits). Do check out the official website for more info. Here we're trying to link to freely available info.
 
 Daisy can be programmed with **Arduino**, **CPP** and **Plugdata** (puredata), **Max** (oopsy)
 
@@ -275,7 +275,7 @@ Some guides will have info about hardware and adding circuits, where possible me
 
 DaisyDuino is very similar to the library for C++, libDaisy, though there are differences, and are not interchangeable.
 
-Note that it is also possible to use e.g. VSCode to program Arduino’s - though following the most tutorials you’ll use the dedicated Arduino IDE. Follow the guidelines to setup your environment as you’ll need to 1: install the **STM32CubeProg**, and 2: install the official DaisyDuino library from within the IDE.
+Note that it is also possible to use e.g. VSCode to program Arduino’s - though following most tutorials you’ll use the dedicated Arduino IDE. Follow the guidelines to set up your environment as you’ll need to 1: install the **STM32CubeProg**, and 2: install the official DaisyDuino library from within the IDE.
 
 [arduino.cc](http://arduino.cc) - main website
 
@@ -289,7 +289,7 @@ Note that it is also possible to use e.g. VSCode to program Arduino’s - though
 
 [Synthux Simple Touch DaisyDuino](https://github.com/Synthux-Academy/simple-touch-instruments/tree/main/daisyduino) - note that the parent folder also contains cpp libDaisy code
 
-- All the Simple Touch 2 instruments are made with Arduino code split into handy blocks. - you will also find the `.bin` versions you could upload with the webprogrammer.
+- All the Simple Touch 2 instruments are made with Arduino code split into handy blocks. - you will also find the `.bin` versions you could upload with the web programmer.
 
 ---
 
@@ -449,7 +449,7 @@ Soldering + electronics tools:
 ## Synthux community members
 
 - **Roey Tsemah** - Founder of Synthux 
-  - main force behind all of Synthux, including hardware, software, webdesign, video, tutorials, courses, ... 
+  - main force behind all of Synthux, including hardware, software, web design, video, tutorials, courses, ... 
   - musician, designer, teaching product design in academies in The Netherlands. 
   - [Personal Instagram](https://www.instagram.com/roey.tsemah) - 
   - [Official Synthux Instagram](https://www.instagram.com/synthux.academy) - own content and reposts of community content
@@ -459,8 +459,8 @@ Soldering + electronics tools:
 - **Nick Donaldson** - made the original Audrey code, main developer for the Spotykach hardware
   - currently at [WMD](https://wmdevices.com/) (modular synthesizers, eurorack and guitar pedals)
   - made his own line of eurorack gear: 
-    - [Infrasonic Audio currently indefinetly on hold](https://infrasonicaudio.com/blogs/news/discontinuing-all-modules)
-    - [Interviexw on electrosmith website "Developer Profile: Infrasonic Audio (Nick Donaldson)"](https://electro-smith.com/blogs/seeds-n-circuits/daisy-in-the-wild-warp-core)
+    - [Infrasonic Audio currently indefinitely on hold](https://infrasonicaudio.com/blogs/news/discontinuing-all-modules)
+    - [Interview on electrosmith website "Developer Profile: Infrasonic Audio (Nick Donaldson)"](https://electro-smith.com/blogs/seeds-n-circuits/daisy-in-the-wild-warp-core)
 
 - **Vlad / Vladislav Litvinenko / aka Bleeptools** - worked on Simple Touch, author of all the official Simple Touch firmwares (except Audrey Touch), author of the official firmware for Spotykach. 
   - Spotykach - a collaboration between Roey Tsemah and Vlad
@@ -470,8 +470,8 @@ Soldering + electronics tools:
 - **Helixbyte** - worked on Canvas, one of the first big projects built on top of the Simple Designer board.
 
 - **Conatus Modulari / Fabio Bartali** - musician and designer
-  - Active meber at the Synthux headquarters 
-  - Spotykach - manual design and allround help in soldering, building, testing etc.
+  - Active member at the Synthux headquarters 
+  - Spotykach - manual design and all-round help in soldering, building, testing etc.
   - [Conatus Modulari on YouTube](https://www.youtube.com/@ConatusModulari) - jams and soundscapes
   - [Conatus Modulari on Instagram](https://www.instagram.com/conatusmodulari)
 
@@ -485,7 +485,7 @@ Soldering + electronics tools:
   
 - **StubeMusic** - Synth enthusiast and musician who makes great patches for Synthux gear and is building Daisy Bloom, an app to build Simple Touch (and custom Daisy Seed) projects using a node editor
   - maker of OceanTouch, ZenTouch, TribalTouch
-  - made a custom (offline)app to upload .bin files to Daisy
+  - made a custom (offline) app to upload .bin files to Daisy
   - [StubeMusic on YouTube](http://www.youtube.com/@StubeMusicMedia)
 
 > To Do: insert links StubeMusic apps
